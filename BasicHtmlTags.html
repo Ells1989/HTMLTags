@@ -10,5 +10,19 @@
      <h4> Header 1 </h4>
      <h5> Header 1 </h5>
      <h6> Header 1 </h6>
+    <p> This is para tag </p>
+    <br/>
+    <label> First Name </label><input type="text" id="fname" placeholder="First Name"/> 
+	<br />
+	<label> Last Name </label><input type="text" id="lname" placeholder="Last Name"/> 
+	<br />
+	<input type="button" value= "Submit" onclick="onclickSubmit(this)" /> 
+	
+	<script type="text/javascript" >
+		function onclickSubmit(event){
+			alert("First Name is "+ document.getElementById("fname").value);
+		}
+	</script>
+    
   </body>
 </html>
